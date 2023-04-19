@@ -18,4 +18,3 @@ def repetitive_nums(min_value: int, max_value: int):
     return sum(str(num).count(digit) for num in range(min_value, max_value+1) for digit in ('8', '0'))
 
 
-print(repetitive_nums(10, 20))
