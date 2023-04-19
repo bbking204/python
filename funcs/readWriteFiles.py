@@ -11,4 +11,4 @@ def load_data(file_name: str):
 
 my_list = ["this", "is", "a_list", True, 420, 6.9]
 save_date("/Users/user/Documents/pythonProjects/python/proj/funcs/data_file.txt", my_list)
-load_data("/Users/user/Documents/pythonProjects/python/proj/funcs/data_file.txt")
+print(load_data("/Users/user/Documents/pythonProjects/python/proj/funcs/data_file.txt"))
